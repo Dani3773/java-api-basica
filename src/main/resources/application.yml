@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/portfolio
+    username: postgres
+    password: postgres
+
+logging:
+  level:
+    com.zaxxer.hikari: DEBUG
+
+server:
+  port: 8080
